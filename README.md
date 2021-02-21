@@ -1,5 +1,24 @@
 # apiTestPostman
 
+https://petstore.swagger.io/#/ url üzerinde belirtilmiş olan open api’ları
+kullanarak caseleri yazabilirsiniz.
+
+* Bir user create edilecek.
+* Create edilen user’ın username ve password bilgileri kullanılarak kullanıcı bilgileri
+getirilecek.
+* Status : Available olan bir pet create edilecek. 
+* Status : Sold olan bir pet daha create edilecek. 
+* Available olan petlerin listesi getirilecek ve bu liste içinde Sold olan petlerin listesi
+olmayacak.
+* Available olan pet’in id'si kullanılarak ilgili pet’in dataları getirilecek. 
+* Aynı pet id kullanılarak 1 adet ve id’si 1 olan bir pet sipariş edilecek. 
+* Order id’sini 1 verdiğimiz Pet’in satınalma siparişi bulanacak ve doğru sipariş<in
+bulunup bulunmadığı kontrol edilecek. 
+* Kullanılan pet silinecek. 
+* Silinen Pet’i pet id kullanarak Get isteği atıp dönen response’dan Pet’in silinmiş
+olduğu dorulanacak. 
+
+
 
 Postman / Newman ile api Testi : 
 Postman, kullanıcıların hem basit hem de karmaşık HTTP isteklerini hızlı şekilde bir araya getirmelerini sağlayarak API’leri paylaşmak, test etmek, geliştirmek, belgelendirmek ve monitör etmek için kullanılan güçlü bir HTTP istemcisidir.
@@ -27,6 +46,7 @@ request Body içeriği 
 Burada gönderilen bilgiler random olarak üretilmiş env. Da tutularak requeste set edilmiştir.
 İstek atılmadan testler gerçeklenmeden önce Pre-requestScript alanı çalıştığından bahsetmiştim. Burada randon mane, lastname, mail ,..  fonskiyonları yazılarak env set edildi ve request içerisinde çağırıldı. Böylece her seferinde farklı verilerle kayıtlar atılmış oldu.Ek olarak Pre-requestScript alanına en başa her istekten önce log atılarak case adı yazılmıştır 
 
+
 2.	Create edilen user’ın username ve password bilgileri kullanılarak kullanıcıbilgilerigetirilecek
 Create edilen user name bilgisini tutmuştuk env. da mevcut. Bunu parametrik olarak getirip isteğimizi atıyoruz.
  
@@ -46,17 +66,6 @@ Burada dönen id son 4 rakamında yuvarlama yapılarak döndüğü görülmüş 
 
 responseBody = responseBody.replace(/\"id"\s?:\s?([0-9]*)/g, `"id": "$1"`)
  
-
-
-
-
-
-
-
-
-
-
-
 
 4.	Status : Sold olan bir pet daha create edilecek.
 Statusa = sold olar bir pet create edilmesi için atılan requeste Statusu sold verilmiştir. Burada create edilen pet name her seferinde random verilmesi sağlanmıştır.
@@ -123,11 +132,8 @@ npm install –g newman
 
 	Daha sonra çalıştırmaya hazırdır kaydedilen collection ve environment json tipinde yoluna gidilerek koşturabilirsiniz, Şimdi yapılan test için koşumu paylaşacağım.
 
-Scriptler  : ek olarak da göndereceğim.   
-
 Komut : newman run odeAl.postman_collection.json –g odealEnv.postman_environment.json
  
-
 Newman üzerinden run edilen komut olarak farklı özelliklerde barındırmaktadır, 
 
 n : collection’ı kaç kere koşacağımızı belirlediğimiz özelliktir. Örneğin 10 kere koşmak için; newman run collection_name.json –n 10
