@@ -1,0 +1,18 @@
+https://petstore.swagger.io/#/ url üzerinde belirtilmiþ olan open api’larý
+kullanarak caseleri yazabilirsiniz.
+* Bir user create edilecek.--> + OKEY
+* Create edilen user’ýn username ve password bilgileri kullanýlarak kullanýcý bilgileri
+getirilecek. --> + OKEY
+* Status : Available olan bir pet create edilecek. --> + OKEY
+* Status : Sold olan bir pet daha create edilecek. --> + OKEY
+* Available olan petlerin listesi getirilecek ve bu liste içinde Sold olan petlerin listesi
+olmayacak. --> + OKEY
+* Available olan pet’in id'si kullanýlarak ilgili pet’in datalarý getirilecek. --> + OKEY
+* Ayný pet id kullanýlarak 1 adet ve id’si 1 olan bir pet sipariþ edilecek. --> + OKEY
+* Order id’sini 1 verdiðimiz Pet’in satýnalma sipariþi bulanacak ve doðru sipariþ<in
+bulunup bulunmadýðý kontrol edilecek. --> +OKEY
+* Kullanýlan pet silinecek. --> +
+* Silinen Pet’i pet id kullanarak Get isteði atýp dönen response’dan Pet’in silinmiþ
+olduðu dorulanacak. --> +
+
+

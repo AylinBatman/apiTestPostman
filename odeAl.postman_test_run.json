@@ -1,0 +1,574 @@
+{
+	"id": "ad2df8dd-1ce8-4279-9b47-07ac01e6fb7f",
+	"name": "odeAl",
+	"timestamp": "2021-02-21T18:54:20.249Z",
+	"collection_id": "a9212d28-58f3-4b83-bd53-17d420501b8e",
+	"folder_id": 0,
+	"environment_id": "b4996577-dbb9-4449-8c4b-38a01f22c453",
+	"totalPass": 51,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "277f2b01-d3dd-4aca-8b61-a7abccd7b347",
+			"name": "CreateUser",
+			"url": "https://petstore.swagger.io/v2/user",
+			"time": 659,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response is ok": true,
+				"Content-Type header is present": true,
+				"response must be valid and have a body": true,
+				"Response code 200 mü kontrolü yapılır": true,
+				"Response time < 1000ms": true,
+				"Datalarım Geldi mi ?": true
+			},
+			"testPassFailCounts": {
+				"response is ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type header is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response must be valid and have a body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response code 200 mü kontrolü yapılır": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time < 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Datalarım Geldi mi ?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				659
+			],
+			"allTests": [
+				{
+					"response is ok": true,
+					"Content-Type header is present": true,
+					"response must be valid and have a body": true,
+					"Response code 200 mü kontrolü yapılır": true,
+					"Response time < 1000ms": true,
+					"Datalarım Geldi mi ?": true
+				}
+			]
+		},
+		{
+			"id": "8026f1aa-10d0-45e6-8910-9e846c1cd9d4",
+			"name": "GetUserByUserName",
+			"url": "https://petstore.swagger.io/v2/user/Hayley",
+			"time": 145,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response is ok": true,
+				"Content-Type header is present": true,
+				"response must be valid and have a body": true,
+				"Create edilen usr getirlidi Passed": true,
+				"Response time < 1000ms": true,
+				"Datalarım Geldi mi ?": true
+			},
+			"testPassFailCounts": {
+				"response is ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type header is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response must be valid and have a body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Create edilen usr getirlidi Passed": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time < 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Datalarım Geldi mi ?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				145
+			],
+			"allTests": [
+				{
+					"response is ok": true,
+					"Content-Type header is present": true,
+					"response must be valid and have a body": true,
+					"Create edilen usr getirlidi Passed": true,
+					"Response time < 1000ms": true,
+					"Datalarım Geldi mi ?": true
+				}
+			]
+		},
+		{
+			"id": "488b3bfa-cbd6-4c54-8804-b256f9bd3be4",
+			"name": "petCreateAvailable",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 146,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response is ok": true,
+				"Content-Type header is present": true,
+				"response must be valid and have a body": true,
+				"Response time < 1000ms": true,
+				"Datalarım Geldi mi ?": true
+			},
+			"testPassFailCounts": {
+				"response is ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type header is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response must be valid and have a body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time < 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Datalarım Geldi mi ?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				146
+			],
+			"allTests": [
+				{
+					"response is ok": true,
+					"Content-Type header is present": true,
+					"response must be valid and have a body": true,
+					"Response time < 1000ms": true,
+					"Datalarım Geldi mi ?": true
+				}
+			]
+		},
+		{
+			"id": "792f929b-0d8f-47ea-9b33-2ebd04c63c5a",
+			"name": "petCreateSold",
+			"url": "https://petstore.swagger.io/v2/pet",
+			"time": 152,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response is ok": true,
+				"Content-Type header is present": true,
+				"response must be valid and have a body": true,
+				"Response time < 1000ms": true,
+				"Datalarım Geldi mi ?": true
+			},
+			"testPassFailCounts": {
+				"response is ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type header is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response must be valid and have a body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time < 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Datalarım Geldi mi ?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				152
+			],
+			"allTests": [
+				{
+					"response is ok": true,
+					"Content-Type header is present": true,
+					"response must be valid and have a body": true,
+					"Response time < 1000ms": true,
+					"Datalarım Geldi mi ?": true
+				}
+			]
+		},
+		{
+			"id": "6e271835-abc1-4478-9e12-c32492add699",
+			"name": "findByStatus?status=available",
+			"url": "https://petstore.swagger.io/v2/pet/findByStatus?status=available",
+			"time": 556,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response is ok": true,
+				"Content-Type header is present": true,
+				"response must be valid and have a body": true,
+				"Liste içerisinde Sold petler Yoktur Passed": true,
+				"Response time < 1000ms": true,
+				"Datalarım Geldi mi ?": true
+			},
+			"testPassFailCounts": {
+				"response is ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type header is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response must be valid and have a body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Liste içerisinde Sold petler Yoktur Passed": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time < 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Datalarım Geldi mi ?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				556
+			],
+			"allTests": [
+				{
+					"response is ok": true,
+					"Content-Type header is present": true,
+					"response must be valid and have a body": true,
+					"Liste içerisinde Sold petler Yoktur Passed": true,
+					"Response time < 1000ms": true,
+					"Datalarım Geldi mi ?": true
+				}
+			]
+		},
+		{
+			"id": "294bb362-49cb-48c6-87b9-f30a26f56369",
+			"name": "pet/{{petIdAvailable}}",
+			"url": "https://petstore.swagger.io/v2/pet/9222968140497253657",
+			"time": 140,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response is ok": true,
+				"Content-Type header is present": true,
+				"response must be valid and have a body": true,
+				"Response time < 1000ms": true,
+				"Datalarım Geldi mi ?": true
+			},
+			"testPassFailCounts": {
+				"response is ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type header is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response must be valid and have a body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time < 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Datalarım Geldi mi ?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				140
+			],
+			"allTests": [
+				{
+					"response is ok": true,
+					"Content-Type header is present": true,
+					"response must be valid and have a body": true,
+					"Response time < 1000ms": true,
+					"Datalarım Geldi mi ?": true
+				}
+			]
+		},
+		{
+			"id": "dead7107-caf9-4636-9fbf-1a8d8a00e7b4",
+			"name": "store/order",
+			"url": "https://petstore.swagger.io/v2/store/order",
+			"time": 146,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response is ok": true,
+				"Content-Type header is present": true,
+				"response must be valid and have a body": true,
+				"pet sipariş edildi Passed": true,
+				"Response time < 1000ms": true,
+				"Datalarım Geldi mi ?": true
+			},
+			"testPassFailCounts": {
+				"response is ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type header is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response must be valid and have a body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"pet sipariş edildi Passed": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time < 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Datalarım Geldi mi ?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				146
+			],
+			"allTests": [
+				{
+					"response is ok": true,
+					"Content-Type header is present": true,
+					"response must be valid and have a body": true,
+					"pet sipariş edildi Passed": true,
+					"Response time < 1000ms": true,
+					"Datalarım Geldi mi ?": true
+				}
+			]
+		},
+		{
+			"id": "c14b19e6-f072-4c45-ae71-5ea231c2b01d",
+			"name": "get/order/{orderId}",
+			"url": "https://petstore.swagger.io/v2/store/order/1",
+			"time": 208,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response is ok": true,
+				"Content-Type header is present": true,
+				"response must be valid and have a body": true,
+				"doğru sipariş bulundu Passed": true,
+				"Response time < 1000ms": true,
+				"Datalarım Geldi mi ?": true
+			},
+			"testPassFailCounts": {
+				"response is ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type header is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response must be valid and have a body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"doğru sipariş bulundu Passed": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time < 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Datalarım Geldi mi ?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				208
+			],
+			"allTests": [
+				{
+					"response is ok": true,
+					"Content-Type header is present": true,
+					"response must be valid and have a body": true,
+					"doğru sipariş bulundu Passed": true,
+					"Response time < 1000ms": true,
+					"Datalarım Geldi mi ?": true
+				}
+			]
+		},
+		{
+			"id": "2f2faf67-680c-488e-afe0-9510a98d1129",
+			"name": "delete/store/order/{petId }",
+			"url": "https://petstore.swagger.io/v2/pet/9222968140497253657",
+			"time": 431,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response is ok": true,
+				"Content-Type header is present": true,
+				"response must be valid and have a body": true,
+				"Response time < 1000ms": true,
+				"Datalarım Geldi mi ?": true
+			},
+			"testPassFailCounts": {
+				"response is ok": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Content-Type header is present": {
+					"pass": 1,
+					"fail": 0
+				},
+				"response must be valid and have a body": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time < 1000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Datalarım Geldi mi ?": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				431
+			],
+			"allTests": [
+				{
+					"response is ok": true,
+					"Content-Type header is present": true,
+					"response must be valid and have a body": true,
+					"Response time < 1000ms": true,
+					"Datalarım Geldi mi ?": true
+				}
+			]
+		},
+		{
+			"id": "78d9533e-2599-43f6-abcf-4687febc36c6",
+			"name": "pet/deleteTeyit",
+			"url": "https://petstore.swagger.io/v2/pet/9222968140497253657",
+			"time": 145,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"doğru pet silinmiş Passed": true
+			},
+			"testPassFailCounts": {
+				"doğru pet silinmiş Passed": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				145
+			],
+			"allTests": [
+				{
+					"doğru pet silinmiş Passed": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2728,
+	"collection": {
+		"requests": [
+			{
+				"id": "277f2b01-d3dd-4aca-8b61-a7abccd7b347",
+				"method": "POST"
+			},
+			{
+				"id": "8026f1aa-10d0-45e6-8910-9e846c1cd9d4",
+				"method": "GET"
+			},
+			{
+				"id": "488b3bfa-cbd6-4c54-8804-b256f9bd3be4",
+				"method": "POST"
+			},
+			{
+				"id": "792f929b-0d8f-47ea-9b33-2ebd04c63c5a",
+				"method": "POST"
+			},
+			{
+				"id": "6e271835-abc1-4478-9e12-c32492add699",
+				"method": "GET"
+			},
+			{
+				"id": "294bb362-49cb-48c6-87b9-f30a26f56369",
+				"method": "GET"
+			},
+			{
+				"id": "dead7107-caf9-4636-9fbf-1a8d8a00e7b4",
+				"method": "POST"
+			},
+			{
+				"id": "c14b19e6-f072-4c45-ae71-5ea231c2b01d",
+				"method": "GET"
+			},
+			{
+				"id": "2f2faf67-680c-488e-afe0-9510a98d1129",
+				"method": "DELETE"
+			},
+			{
+				"id": "78d9533e-2599-43f6-abcf-4687febc36c6",
+				"method": "GET"
+			}
+		]
+	}
+}
